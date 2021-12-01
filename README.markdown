@@ -6,7 +6,7 @@ Java Refactoring Exercise
 Introduction
 ------------
 
-This project is used within the hybris software hiring process to determine knowledge of Java/Spring best practices and refactoring.
+This project is used within the SAP Hybris software hiring process to determine knowledge of Java/Spring best practices and refactoring.
 
 The idea of this exercise is to evaluate your ability to identify poor coding practices and improve the code through the use of best practices.
 
@@ -20,7 +20,35 @@ The main project is a very basic user management application. We are not looking
 * Your ability to apply proven design principles
 * Your ability to write useful and effective tests
 
-Feel free to modify whatever you want! :)
+
+Instructions
+------------
+
+* Review carefully the contents of this repository.
+* Make notes of any and all refactoring you deem necessary by using your knowledge of Java/Spring best practices. Remember that this includes both code and tests.
+* Be ready to discuss in detail changes you would make if you were to refactor.
+
+ 
+Business Requirements
+---------------------
+
+* The user's email is a unique identifier and should be handled accordingly.
+* A user should have at least one role.
+
+
+Tips
+----
+
+* Unit tests != integration tests
+* Spring dependency is provided
+* Don't be afraid to propose additional dependencies if you think you need them
+* Keep in mind that there can be concurrent requests
+* Look for ways to make the application portable, extensible and easily maintainable
+
+Good luck, and we'll see you in your interview!
+
+
+--Prior Instructions - PLEASE IGNORE UNLESS YOU WOULD LIKE TO BUILD THE PROJECT LOCALLY--
 
 Prerequisites
 -------------
